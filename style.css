@@ -454,6 +454,11 @@ nav.show div.icon-close {
   gap: 4rem;
 }
 
+#contact h2 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 #contact .text p {
   margin-bottom: 2rem;
 }

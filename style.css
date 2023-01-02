@@ -25,8 +25,8 @@ img {
   /* colors */
   --hue: 15;
   /* HSL color mode */
-  --base-color: rgba(234,85,43,255);
-  --base-color-second: rgba(234,85,43,255);
+  --base-color: rgba(234, 85, 43, 255);
+  --base-color-second: rgba(234, 85, 43, 255);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
@@ -284,7 +284,9 @@ nav.show div.icon-close {
   content: '';
   height: 100%;
   width: 100%;
-  background: var(--base-color-second);
+  background-image: url(assets/fotos/garrett-butler-UrJ-fn2iRUM-unsplash.jpg);
+  background-size: cover;
+  opacity: 90%;
   position: absolute;
   top: -16.8%;
   left: 16.7%;
@@ -332,7 +334,9 @@ nav.show div.icon-close {
   content: '';
   height: 100%;
   width: 100%;
-  background: var(--base-color-second);
+  background-image: url(assets/fotos/heidi-erickson-CPSjcuuV8E8-unsplash.jpg);
+  background-size: cover;
+  opacity: 90%;
   position: absolute;
   top: -8.3%;
   left: -33%;
@@ -364,6 +368,10 @@ nav.show div.icon-close {
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
+}
+
+.card i:hover {
+  transform: translateY(-8px);
 }
 
 .card i {
@@ -528,22 +536,22 @@ footer .social a:hover {
 .instagramS:hover::before {
   content: 'São Miguel';
   font-size: 10px;
-position: fixed;
-color: white;
-margin-top: 30px;
+  position: fixed;
+  color: white;
+  margin-top: 30px;
 }
 
 .instagramI:hover::before {
   content: 'Itaim Paulista';
   font-size: 10px;
-position: fixed;
-color: white;
-margin-top: 30px;
+  position: fixed;
+  color: white;
+  margin-top: 30px;
 }
 
 /* Back to top */
 .back-to-top {
-  background: rgba(234,85,43,255);
+  background: rgba(234, 85, 43, 255);
   color: var(--text-color-light);
 
   position: fixed;

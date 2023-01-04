@@ -284,9 +284,9 @@ nav.show div.icon-close {
   content: '';
   height: 100%;
   width: 100%;
-  background-image: url(assets/fotos/garrett-butler-UrJ-fn2iRUM-unsplash.jpg);
+  background-image: url(assets/fotos/fundo-logo-lar.png);
   background-size: cover;
-  opacity: 90%;
+  opacity: 95%;
   position: absolute;
   top: -16.8%;
   left: 16.7%;
@@ -332,11 +332,11 @@ nav.show div.icon-close {
 
 #about .image::before {
   content: '';
-  height: 100%;
-  width: 100%;
-  background-image: url(assets/fotos/heidi-erickson-CPSjcuuV8E8-unsplash.jpg);
+  height: 101%;
+  width: 101%;
+  background-image: url(assets/fotos/fundo-logo-nome.png);
   background-size: cover;
-  opacity: 90%;
+  opacity: 95%;
   position: absolute;
   top: -8.3%;
   left: -33%;
@@ -370,6 +370,10 @@ nav.show div.icon-close {
   text-align: center;
 }
 
+.card:hover {
+  border: solid var(--base-color);
+}
+
 .card i:hover {
   transform: translateY(-8px);
 }
@@ -379,6 +383,7 @@ nav.show div.icon-close {
   margin-bottom: 1.5rem;
   font-size: 5rem;
   color: var(--base-color);
+  transition: transform 0.5s ease-in-out;
 }
 
 .card .title {

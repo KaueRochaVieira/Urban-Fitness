@@ -280,19 +280,6 @@ nav.show div.icon-close {
   position: relative;
 }
 
-#home .image::before {
-  content: '';
-  height: 100%;
-  width: 100%;
-  background-image: url(assets/fotos/fundo-logo-lar.png);
-  background-size: cover;
-  opacity: 95%;
-  position: absolute;
-  top: -16.8%;
-  left: 16.7%;
-  z-index: 0;
-}
-
 #home .image img {
   position: relative;
   right: 2.93rem;
@@ -328,19 +315,6 @@ nav.show div.icon-close {
 
 #about .image {
   position: relative;
-}
-
-#about .image::before {
-  content: '';
-  height: 101%;
-  width: 101%;
-  background-image: url(assets/fotos/fundo-logo-nome.png);
-  background-size: cover;
-  opacity: 95%;
-  position: absolute;
-  top: -8.3%;
-  left: -33%;
-  z-index: 0;
 }
 
 #about .image img {

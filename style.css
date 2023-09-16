@@ -640,6 +640,10 @@ footer .social a:hover {
     padding-right: 3rem;
   }
 
+  .cardCenter {
+    grid-column: 2;
+  }
+
   #testimonials .container {
     margin-left: auto;
     margin-right: auto;

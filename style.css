@@ -671,6 +671,11 @@ footer .social a:hover {
   footer .logo {
     font-size: 2.25rem;
   }
+
+  .titleLinks {
+    margin-bottom: 25px;
+    text-align: left;
+  }
 }
 /* large devices: 1023 > */
 /* large devices: 992 > */
@@ -770,6 +775,10 @@ footer .social a:hover {
     align-items: center;
   }
 
+  #contact .links iframe {
+    text-align: center;
+  }
+
   #contact .text {
     max-width: 25rem;
   }
@@ -787,6 +796,18 @@ footer .social a:hover {
   footer .logo {
     font-size: 2.25rem;
   }
+
+  .titleLinks {
+    margin-bottom: 25px;
+    text-align: left;
+  }
 }
 
 /* medium devices: 767 > */
+
+@media (min-width: 767px) {
+  .titleLinks {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+}

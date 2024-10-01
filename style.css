@@ -365,6 +365,27 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 
+#planos h1 {
+  font-size: 2.2rem;
+  color: var(--base-color);
+}
+
+.aula {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--base-color);
+}
+
+#services img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 280px;
+  max-height: 280px;
+}
+
+#services h3 strong {
+  color: var(--base-color);
+}
 /*====  TESTIMONIALS ============================ */
 #testimonials {
   background: white;
